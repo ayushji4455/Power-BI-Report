@@ -56,8 +56,9 @@ The primary goal of this project was to create a comprehensive and interactive d
 ##  Dashboard Design & Features
 
 ### 1. Executive Dashboard (Track KPIs)
-![Alt text](<img width="1349" height="745" alt="Image" src="https://github.com/user-attachments/assets/55a275c8-3fa2-4d88-9b60-edaccb838ca0" />)
 
+
+<img width="1349" height="745" alt="Screenshot 2025-07-25 231047" src="https://github.com/user-attachments/assets/110f499e-1038-4ac5-9770-a822f54cdcd6" />
 
 #### 🔧 Design Highlights:
 The top part of the dashboard, being the most critical real estate, displays the four main KPIs using card visuals:
@@ -81,6 +82,8 @@ The top part of the dashboard, being the most critical real estate, displays the
 
 ### 2. Regional Map (Compare Regional Performance)
 
+<img width="1292" height="722" alt="Screenshot 2025-07-25 225544" src="https://github.com/user-attachments/assets/a47f6167-51ed-451a-843f-24f6fb5c1856" />
+
 ####  Design Highlights:
 - **Map Visual**: Orders by country  
 - **Continent Slicers** for drill-through  
@@ -92,6 +95,8 @@ The top part of the dashboard, being the most critical real estate, displays the
 ---
 
 ### 3. Product Detail (Analyze Product-Level Trends)
+
+<img width="1315" height="740" alt="Screenshot 2025-07-25 230015" src="https://github.com/user-attachments/assets/02117d2a-949d-4cf9-a913-db370e439b42" />
 
 ####  Design Highlights:
 - **Gauge Charts**: Current month metrics vs. targets  
@@ -106,6 +111,8 @@ The top part of the dashboard, being the most critical real estate, displays the
 ---
 
 ### 4. Customer Detail (Identify High-Value Customers)
+
+<img width="1326" height="743" alt="Screenshot 2025-07-25 231209" src="https://github.com/user-attachments/assets/76806df8-a2b1-40c6-bafc-75facaf7a224" />
 
 ####  Design Highlights:
 - **Cards**: Total unique customers, average revenue per customer  
