@@ -1,4 +1,4 @@
-##Adventure Works Power BI Dashboard: Global Sales & Customer Insights
+###Adventure Works Power BI Dashboard: Global Sales & Customer Insights
 
 An interactive and insightful Power BI dashboard built to help “Adventure Works”, a global cycling equipment manufacturer, monitor performance across regions, analyze product trends, and identify high-value customers using dynamic visualizations.
 
