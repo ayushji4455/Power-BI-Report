@@ -1,137 +1,140 @@
-###Adventure Works Power BI Dashboard: Global Sales & Customer Insights
+# Adventure Works Power BI Dashboard: Global Sales & Customer Insights
 
-An interactive and insightful Power BI dashboard built to help “Adventure Works”, a global cycling equipment manufacturer, monitor performance across regions, analyze product trends, and identify high-value customers using dynamic visualizations.
+An interactive and insightful Power BI dashboard built to help **Adventure Works**, a global cycling equipment manufacturer, monitor performance across regions, analyze product trends, and identify high-value customers using dynamic visualizations.
 
-About the Project
+---
 
-Introduction
+##  Table of Contents
+1. [About the Project](#about-the-project)
+    - [Introduction](#introduction)
+    - [Objective](#objective)
+2. [Dataset Overview](#dataset-overview)
+    - [Fact Tables](#fact-tables)
+    - [Dimension Tables](#dimension-tables)
+3. [Dashboard Design & Features](#dashboard-design--features)
+    - [1. Executive Dashboard (Track KPIs)](#1-executive-dashboard-track-kpis)
+    - [2. Regional Map (Compare Regional Performance)](#2-regional-map-compare-regional-performance)
+    - [3. Product Detail (Analyze Product-Level Trends)](#3-product-detail-analyze-product-level-trends)
+    - [4. Customer Detail (Identify High-Value Customers)](#4-customer-detail-identify-high-value-customers)
+4. [Tools & Techniques Used](#tools--techniques-used)
+5. [Conclusion](#conclusion)
 
-Adventure Works is a multinational company specializing in cycling equipment and accessories, operating across Europe, North America, and the Pacific. To support data-driven decision-making and streamline performance tracking, a multi-page Power BI dashboard was developed.
+---
 
-Objective
+##  About the Project
 
+### 🔹 Introduction
+**Adventure Works** is a multinational company specializing in cycling equipment and accessories, operating across **Europe**, **North America**, and the **Pacific**. To support data-driven decision-making and streamline performance tracking, a **multi-page Power BI dashboard** was developed.
+
+### 🔹 Objective
 The primary goal of this project was to create a comprehensive and interactive dashboard that enables management to:
-• Track KPIs such as sales, revenue, profit, and returns.
-• Compare performance across different regions.
-• Analyze trends at the product level.
-• Identify and focus on high-value customers.
+- Track KPIs such as **Sales**, **Revenue**, **Profit**, and **Returns**
+- Compare performance across different **regions**
+- Analyze **product-level** trends
+- Identify and focus on **high-value customers**
 
-Dataset Overview
+---
 
-Total Files: 10 Excel CSV files
+##  Dataset Overview
 
-Data Structure:
+- **Total Files**: 10 Excel CSV files
 
-Fact Tables:
-Sales Data
-Returns Data
+### 🔸 Fact Tables:
+- `Sales Data`
+- `Returns Data`
 
-Dimension Tables:
+### 🔸 Dimension Tables:
+- `Customer Lookup`
+- `Calendar Lookup`
+- `Product Lookup`
+- `Territory Lookup`
+- `Product Categories Lookup`
+- `Product Subcategories Lookup`
 
-Customer Lookup
+---
 
-Calendar Lookup
+##  Dashboard Design & Features
 
-Product Lookup
+### 1. Executive Dashboard (Track KPIs)
+![Alt text](image_url)
 
-Territory Lookup
 
-Product Categories Lookup
+#### 🔧 Design Highlights:
+The top part of the dashboard, being the most critical real estate, displays the four main KPIs using card visuals:
+- **KPI Cards**: Revenue, Profit, Orders, Return Rate  
+- **Line Chart**: Revenue trend over time (2020–2022)  
+- **KPI Visuals**: Current month vs. previous month performance  
+- **Bar Chart**: Orders by product category  
+- **Matrix**: Top 10 products with Revenue & Return Rate  
+- **Cards**: Most ordered & most returned product types  
 
-Product Subcategories Lookup
+####  Key Questions Answered:
+- What are the current values of the main KPIs?
+- How has revenue trended over time from 2020 to 2022?
+- What is the performance of the current month compared to the previous month?
+- How are orders distributed across different product categories?
+- Which products are the top performers in terms of orders and revenue?
+- Which products have the highest return rates?
+- What are the most ordered and most returned product types?
 
-Dashboard Design & Features
+---
 
-1. Executive Dashboard (Track KPIs)
-   
- Design Highlights:
- 
-The top part of the dashboard, being the most critical real estate, was utilized to display the four main KPIs—Revenue, Profit, Orders, and Return Rate—using card visuals. These KPIs are what management prioritizes.
+### 2. Regional Map (Compare Regional Performance)
 
-KPI Cards: Revenue, Profit, Orders, Return Rate
+####  Design Highlights:
+- **Map Visual**: Orders by country  
+- **Continent Slicers** for drill-through  
 
-Line Chart: Revenue trend over time (2020–2022)
+####  Key Questions Answered:
+- How are orders distributed across different countries and regions?
+- How does performance vary by continent?
 
-KPI Visuals: Current month vs. previous month performance
+---
 
-Bar Chart: Orders by product category
+### 3. Product Detail (Analyze Product-Level Trends)
 
-Matrix: Top 10 products with Revenue & Return Rate
+####  Design Highlights:
+- **Gauge Charts**: Current month metrics vs. targets  
+- **Line Chart**: Profit simulations based on cost price variation  
+- **Area Chart with Field Parameters**: Trends in key metrics over time  
 
-Cards: Most ordered & most returned product types
+####  Key Questions Answered:
+- How does a specific product perform in terms of orders, revenue, and profit?
+- How would changes in cost prices affect profit margins?
+- What are the trends for orders, revenue, profit, returns, and return rate over time?
 
-Key Questions Answered:
+---
 
-• What are the current values of the main KPIs (Revenue, Profit, Orders, Return Rate)?
-• How has revenue trended over time from 2020 to 2022?
-• What is the performance of the current month compared to the previous month?
-• How are orders distributed across different product categories?
-• Which products are the top performers in terms of orders and revenue, and which have the highest return rates?
-• What are the most ordered and most returned product types?
+### 4. Customer Detail (Identify High-Value Customers)
 
-2. Regional Map (Compare Regional Performance)
-   
- Design Highlights:
+####  Design Highlights:
+- **Cards**: Total unique customers, average revenue per customer  
+- **Line Chart**: Customer metrics over time  
+- **Donut Charts**: Income & occupation segmentation  
+- **Table**: Top 100 customers by orders and revenue  
+- **Highlight Card**: Top customer by revenue  
 
-Map Visual: Orders by country
+####  Key Questions Answered:
+- How many unique customers does the company have?
+- What is the average revenue per customer?
+- How have these metrics changed over time?
+- What is the demographic composition of customers by income and occupation?
+- Who are the top 100 customers by revenue and orders?
+- Who is the top customer and what is their contribution to revenue?
 
-Continent Slicers for drill-through
+---
 
-Key Questions Answered:
+##  Tools & Techniques Used
 
-• How are orders distributed across different countries and regions?
-• How does performance vary by continent?
+- **Power BI Desktop**
+- **Power Query** for data transformations
+- **DAX** for calculated columns and measures
+- **Drill-through**, **field parameters**, and **numeric range slicers**
+- Interactive visuals: KPI cards, bar charts, line/area charts, maps, matrix tables
 
-3. Product Detail (Analyze Product-Level Trends)
-   
-🔧 Design Highlights:
+---
 
-Gauge Charts: Current month metrics vs. targets
+##  Conclusion
 
-Line Chart: Profit simulations based on cost price variation
+The interactive dashboard developed for **Adventure Works** serves as a comprehensive analytical tool for management. By enabling deep dives into sales data, regional performance, product profitability, and customer value, this Power BI solution empowers stakeholders to make strategic and data-driven decisions.
 
-Area Chart with Field Parameters: Trends in key metrics over time
-
-Key Questions Answered:
-
-• How does a specific product perform in terms of orders, revenue, and profit?
-• How would changes in cost prices affect profit margins?
-• What are the trends for various metrics (Total Orders, Total Revenue, Total Profit, Total Returns, Return Rate) over time for a specific product?
-
-4. Customer Detail (Identify High-Value Customers)
-   
- Design Highlights:
-
-Cards: Total unique customers, average revenue per customer
-
-Line Chart: Customer metrics over time
-
-Donut Charts: Customer income & occupation segmentation
-
-Table: Top 100 customers by orders and revenue
-
-Highlight Card: Top customer by revenue
-
-Key Questions Answered:
-
-• How many unique customers does the company have, and what is the average revenue per customer?
-• How have the number of unique customers and average revenue per customer changed over time?
-• What is the demographic composition of customer orders by income level and occupation?
-• Who are the top 100 customers by orders, and what is their corresponding revenue?
-• Who is the top customer by revenue, and how significant is their contribution to overall revenue?
-
-Tools & Techniques Used
-
-Power BI Desktop
-
-Power Query for transformations
-
-DAX for calculated columns & measures
-
-Drill-through, field parameters, numeric range slicers
-
-Interactive visuals: KPI cards, bar charts, line/area charts, maps, matrix tables
-
-Conclusion
-
-The interactive dashboard developed for Adventure Works provides a comprehensive tool for management to track KPIs, compare regional performance, analyze product-level trends, and identify high-value customers. The multi-page design ensures that each goal is addressed effectively, providing valuable insights that can drive strategic decisions and operational improvements.
