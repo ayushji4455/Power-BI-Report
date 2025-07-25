@@ -56,7 +56,7 @@ The primary goal of this project was to create a comprehensive and interactive d
 ##  Dashboard Design & Features
 
 ### 1. Executive Dashboard (Track KPIs)
-![Alt text](image_url)
+![Alt text](<img width="1349" height="745" alt="Image" src="https://github.com/user-attachments/assets/55a275c8-3fa2-4d88-9b60-edaccb838ca0" />)
 
 
 #### 🔧 Design Highlights:
