@@ -4,22 +4,7 @@ An interactive and insightful Power BI dashboard built to help **Adventure Works
 
 ---
 
-##  Table of Contents
-1. [About the Project](#about-the-project)
-    - [Introduction](#introduction)
-    - [Objective](#objective)
-2. [Dataset Overview](#dataset-overview)
-    - [Fact Tables](#fact-tables)
-    - [Dimension Tables](#dimension-tables)
-3. [Dashboard Design & Features](#dashboard-design--features)
-    - [1. Executive Dashboard (Track KPIs)](#1-executive-dashboard-track-kpis)
-    - [2. Regional Map (Compare Regional Performance)](#2-regional-map-compare-regional-performance)
-    - [3. Product Detail (Analyze Product-Level Trends)](#3-product-detail-analyze-product-level-trends)
-    - [4. Customer Detail (Identify High-Value Customers)](#4-customer-detail-identify-high-value-customers)
-4. [Tools & Techniques Used](#tools--techniques-used)
-5. [Conclusion](#conclusion)
 
----
 
 ##  About the Project
 
